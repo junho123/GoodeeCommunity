@@ -1,0 +1,98 @@
+.top-board{
+    margin: 12px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.profile .profile-img-manager{
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    background-image: url(./M05_img/관리자\ 아이콘.png);
+    border: 0;
+    vertical-align: middle;
+    background-size: 40px 32px;
+}
+
+#menu{
+    text-align: center;
+    position: relative;
+}
+
+.section-top table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.section-top th{
+    background-color: rgb(243, 242, 242);
+}
+
+.section-top th,td{
+   /*4 방향 모두 20px*/
+   /* padding: 20px;*/
+   /*
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+    */
+    /*12 - 3 - 6 - 9
+   padding : 10px 20px 20px 20px;
+   */
+   /*12&6 -> 3&9*/
+   padding: 10px 20px;
+}
+
+.btn-table{
+    border: 1px solid black;
+    background-color: rgb(243, 242, 242);
+}
+
+    /*미리보기*/
+span {
+    display: block;
+    width: 200px;
+    padding: 2px 16px;
+    cursor: pointer;
+}
+.arrow_box {
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding: 8px;
+    left: 30px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;  
+    border-radius: 8px;
+    background: rgb(243, 242, 242);
+    color: black;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.arrow_box:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+
+span:hover + p.arrow_box {
+    display: block;
+}
+
+
+
+   

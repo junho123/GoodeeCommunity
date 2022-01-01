@@ -1,0 +1,79 @@
+table{
+	left : 300px;
+}
+
+table, td, th{   
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: center;
+   padding: 10px;   
+   left: 200px;
+   top: 200px;
+}
+
+tr,td{
+    width: 80px;
+    height: 30px;
+}
+
+.nickName{
+    width: 120px;
+}
+
+.mtitle{
+    top: 25px;
+    left: 45px;
+    position: relative;
+}
+
+.section-top2{
+    position: relative;
+    top: 70px;
+    left: 190px;
+}
+
+.delete {
+    width: 85px;
+    height: 45px;
+    right: -65px;
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #1a2e3b;
+    border-radius: 0;    
+    
+}
+
+.btn-box2{
+    position: relative;
+    width: 300px;
+    
+}
+
+
+
+div{
+    display: block;
+}
+
+th{
+	background : #e0e0e0;
+} 
+
+#contents .contents_table{
+	left : 300px;
+}
+
+.list-paging {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.list-paging > button {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #d5d5d5;
+}
+
+.list-paging > button.on {
+    color: black;
+}

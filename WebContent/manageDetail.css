@@ -1,0 +1,183 @@
+
+.upmy1 {
+    position: absolute;
+    top: 250px;
+    left: 164px;
+    width: 799px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    
+    }
+  
+  .upmy1 .upfn {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 440px;
+    top: 290px;
+    border-radius: 5%;
+    border: 1px solid black;
+  }
+  .upmy1 .upcant {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 585px;
+    top: 290px;
+    border-radius: 5%;
+    border: 1px solid black;
+  }
+  .upmy1 .out {
+    bottom: -10px;
+    right: 110px;
+    position: absolute;
+}
+
+  .upmy2{
+    position: absolute;
+    width: 795px;
+    height: 330px;
+    top: 0px;
+    
+  }
+
+  .upmy3-1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    top: 100px;
+    left: 20px;
+    border: 1px solid black;
+    
+  }
+
+  .upmy3_2{
+    position: relative;
+    width: 363px;
+    height: 300px;
+    left: 380px;
+    top: 55px;
+    border: 1px solid black;
+    border-radius: 3%;
+  }
+
+  .upmy3_2 .u3_2{
+    left: 20px;
+    position: relative;
+    top: 20px;
+  }
+
+  .upmy3_1 .upimge{
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 20px;
+    position: absolute;
+  }
+  .upmy3_1 .imge_1{
+    border-radius: 50%;
+  }
+  .upmy3_1 .u{
+    top: 20px;
+    left: 70px;
+    position: relative;
+  }
+  
+
+  .upmy2_1 {    
+    position: absolute;
+    width: 795px;
+    height: 232px;
+    top: 367px;
+    }
+
+  .upmy2_1 > ul {
+      font-size:0;
+      }
+  .upmy2_1 > ul > li {
+      display:inline-block;
+      vertical-align:top;
+      width:24%;
+      border-radius: 20%;
+      left: 30px;
+      top: 10px;
+      position: relative;
+      }
+      
+  .upmy2_1 > ul > li > a {
+      display:block;
+      width:auto;
+      margin:55px;
+      
+      }
+  
+
+  td{
+      width: 40px;
+      height: 20px;
+    }
+  .dap{
+      position: absolute;
+      top: 450px;
+      left: 92px;
+    }
+
+  .paging{
+    position: relative;
+    top: 230px;
+  }
+
+  .cl button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid rgba(255, 230, 207, 0.28);
+  border-radius: 4px;
+  position: absolute;
+  right: 24px;
+  bottom: 15px;
+  }
+  .screen button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid rgba(255, 230, 207, 0.28);
+    border-radius: 4px;
+    position: absolute;
+    right: 65px;
+    bottom: 15px;
+  }
+
+  input[type="text"] {
+    width: 45%;
+    text-align: center;
+  }
+
+  .delete{
+      border: 1px solid black;
+      left: 30px;
+      width: 50px;
+      height: 34px;
+      background-color:rgb(239, 239, 239);
+  }
+
+  .myWrite{
+      border: 1px solid red;
+  }
+
+  .manageDetail_paging{
+    padding: 150 0;
+    position: relative;
+    top: 10px;
+  }
+  .upDateForm{
+  	padding-top: 50px;
+  	position: relative;
+  }
+
+  .mtitle{
+  	position:relative;
+  	top:50px;
+    left:50px; 
+  }  

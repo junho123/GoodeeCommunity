@@ -1,0 +1,359 @@
+.board-name{
+    font-size: 40px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.menutype-select{
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin: -2px;
+    left: 387px;
+    top: 95px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgb(241, 239, 239);
+    font-size: 22px;
+}
+
+.menutype{
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    margin: -3px;
+    padding: 0px;
+    top: 100px;
+    left: 387px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgb(241, 239, 239);
+    font-size: 22px;
+}
+
+/* 게시물 감싸는 전체 div*/
+.menu-board{
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+/*1번 동남부대찌개*/
+.menu1{
+    width: 90%;
+    height: 222px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.menu-image1{
+    border: 1px solid black;
+    width: 30%;
+    height: 220px;
+    position: relative;
+    background-image: url("./image/동남부대찌개.PNG");
+    background-position: center;
+    background-size: 300px 220px;
+    background-repeat: no-repeat;
+}
+
+.koreamenu-name1{
+    left: 270px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.koreamenu-tel1{
+    top: 20px;
+    left: 300px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    display: block;
+}
+
+.telimg1{
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+
+.mapimg1{
+    position: relative;
+    left: 275px;
+    top: 48px;
+}
+
+.koreamenu-map1{
+    position: relative;
+    left: 300px;
+    top: 23px;
+}
+
+.moresee1{
+    position: relative;
+    left: 760px;
+    top: 90px;
+}
+
+/*2번 육전국밥*/
+.menu2{
+    width: 90%;
+    height: 222px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.menu-image2{
+    border: 1px solid black;
+    width: 30%;
+    height: 220px;
+    position: relative;
+    background-image: url("./image/육전국밥.PNG");
+    background-position: center;
+    background-size: 300px 220px;
+    background-repeat: no-repeat;
+}
+
+.koreamenu-name2{
+    left: 270px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.koreamenu-tel2{
+    top: 20px;
+    left: 300px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    display: block;
+}
+
+.telimg2{
+    position: relative;
+    left: 147px;
+    top: 50px;
+}
+
+.mapimg2{
+    position: relative;
+    left: 275px;
+    top: 48px;
+}
+
+.koreamenu-map2{
+    position: relative;
+    left: 300px;
+    top: 23px;
+}
+
+.moresee2{
+    position: relative;
+    left: 760px;
+    top: 90px;
+}
+
+/*3번 모두국밥*/
+
+.menu3{
+    width: 90%;
+    height: 222px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.menu-image3{
+    border: 1px solid black;
+    width: 30%;
+    height: 220px;
+    position: relative;
+    background-image: url("./image/모두국밥.PNG");
+    background-position: center;
+    background-size: 300px 220px;
+    background-repeat: no-repeat;
+}
+
+.koreamenu-name3{
+    left: 270px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.koreamenu-tel3{
+    top: 20px;
+    left: 300px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    display: block;
+}
+
+.telimg3{
+    position: relative;
+    left: 147px;
+    top: 50px;
+}
+
+.mapimg3{
+    position: relative;
+    left: 275px;
+    top: 48px;
+}
+
+.koreamenu-map3{
+    position: relative;
+    left: 300px;
+    top: 23px;
+}
+
+.moresee3{
+    position: relative;
+    left: 760px;
+    top: 90px;
+}
+/*4*/
+
+.menu4{
+    width: 90%;
+    height: 222px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.menu-image4{
+    border: 1px solid black;
+    width: 30%;
+    height: 220px;
+    position: relative;
+    background-image: url("./image/돈보따리.PNG");
+    background-position: center;
+    background-size: 300px 220px;
+    background-repeat: no-repeat;
+}
+
+.koreamenu-name4{
+    left: 270px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.koreamenu-tel4{
+    top: 20px;
+    left: 300px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    display: block;
+}
+
+.telimg4{
+    position: relative;
+    left: 147px;
+    top: 50px;
+}
+
+.mapimg4{
+    position: relative;
+    left: 275px;
+    top: 48px;
+}
+
+.koreamenu-map4{
+    position: relative;
+    left: 300px;
+    top: 23px;
+}
+
+.moresee4{
+    position: relative;
+    left: 760px;
+    top: 90px;
+}
+/*5*/
+
+.menu5{
+    width: 90%;
+    height: 222px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.menu-image5{
+    border: 1px solid black;
+    width: 30%;
+    height: 220px;
+    position: relative;
+    background-image: url("./image/토마토김밥.PNG");
+    background-position: center;
+    background-size: 300px 220px;
+    background-repeat: no-repeat;
+}
+
+.koreamenu-name5{
+    left: 270px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.koreamenu-tel5{
+    top: 20px;
+    left: 300px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    display: block;
+}
+
+.telimg5{
+    position: relative;
+    left: 118px;
+    top: 50px;
+}
+
+.mapimg5{
+    position: relative;
+    left: 275px;
+    top: 48px;
+}
+
+.koreamenu-map5{
+    position: relative;
+    left: 300px;
+    top: 23px;
+}
+
+.moresee5{
+    position: relative;
+    left: 760px;
+    top: 90px;
+}
+
+

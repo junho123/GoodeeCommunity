@@ -1,0 +1,4 @@
+.metadata/
+.settings/
+WebContent/WEB-INF/lib/
+*.class

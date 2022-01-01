@@ -1,0 +1,65 @@
+div{
+   display: block; 
+}
+
+
+
+.sel-txt {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 44px;
+    padding-left: 20px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    color: #aaa;
+    text-align: left;
+}
+
+.cancle {
+    width: 85px;
+    height: 45px;
+    left: 550px;
+    opacity: 0.4;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #1a2e3b;
+    border-radius: 0;
+    
+    
+}
+
+.register {
+    width: 85px;
+    height: 45px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #1a2e3b;
+    border-radius: 0;
+    
+}
+
+.tit-input {
+    width: 80%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: 0;
+    border-top: 1px solid #eaecef;
+}
+
+.link-input {
+    width: 80%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: 0;
+    border-top: 1px solid #eaecef;
+}
+
+.textarea{
+    width: 780px;
+    height: 480px;
+    position: relative;
+    resize: none;
+}

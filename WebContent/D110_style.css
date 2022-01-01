@@ -1,0 +1,296 @@
+
+.section_top{
+    padding: 20px;
+    position: relative;
+}
+
+.section-bot {
+    padding: 0 30px;
+}
+
+.title_box{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+/*게시판 제목*/
+.key_color {
+    color: #670000;
+    border-color: #670000;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+h2{
+    margin: 1px;
+}
+/*게시글 제목*/            
+h3{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+
+/*수정 삭제 버튼*/
+.btn{
+    float: right;
+    width: 50px;
+    position: relative;
+    
+}
+
+/*닉네임*/
+.writer{
+    font-size: 13px;
+    position: relative;
+    margin: 0px;
+    font-weight: bold;
+}
+
+/*날짜*/
+.date{
+    font-size: 13px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+
+.writing_info dd {
+    display: inline-block;
+}
+
+/*조회수 이미지*/
+.read{
+    position: absolute;
+    margin-top: 2px;
+}
+
+/*조회수*/
+.count{
+    position: relative;
+    left: 30px;
+    font-size: 13px;
+}
+
+/***********************************************************************/
+
+/*text 적는 곳*/
+.view-box{
+    padding-top: 30px;
+    padding-right: 60px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.txt {
+    overflow: hidden;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+/*좋아요*/
+.share {
+    text-align: center;
+}
+
+.view-box .share .btn-like {
+    position: relative;
+    padding-left: 20px;
+}
+
+/*좋아요 박스*/
+.btn-like.thread-likes {
+    min-width: 58px;
+    height: 44px;
+    padding: 0px 10px 0px 5px;
+    color: #6a6a6a;
+    border: 1px solid #d1d1d1;
+    border-radius: 22px;
+}
+/*좋아요 박스 안의 하트*/
+.btn-like img {
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    width: 20px;
+    height: 16px;
+}
+
+.like-count{
+    position: relative;
+    left: 7px;
+    top: 2px;
+    font-size: 16px;
+}
+/****************************************************************/
+
+/*댓글 등록*/
+
+h1 h2 h3 h4 h5 h6 p{
+    line-height: 100%;
+}
+.message{
+    font-size: 19px;
+}
+
+.key-color {
+    font-size: 19px;
+}
+
+.reply-input > div, .board-view .reply-input2 > div {
+    position: relative;
+    min-height: 90px;
+    margin-bottom: 10px;
+}
+
+.reply-input .nologin-disabled {
+    overflow: hidden;
+    width: 85%;
+    min-height: 40px;
+    padding: 0 0 50px 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 0;
+    font-size: 13px;
+}
+
+.btn-reply{
+    border: 1px solid black;
+    width: 100px;
+    height: 90px;
+    top: 27px;
+    position: relative;
+    cursor: pointer;
+}
+
+.total{
+    margin: 0;
+}
+/*댓글 리스트*/
+
+.reply-list {
+    border-top: 1px solid #f4f4f4;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.reply-list .reply {
+    position: relative;
+    padding: 30px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.reply-list .reply .profile-img {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 54px;
+    height: 54px;
+    background-image: url("./image/프로필.PNG");
+}
+
+.reply-list .reply .txt-area {
+    position: relative;
+    padding-left: 74px;
+}
+
+.writing-info {
+    font-size: 13px;
+    color: #585858;
+}
+
+
+
+.writing-info dd {
+    display: inline-block;
+}
+
+/*댓글 날짜 */
+.writing-info dd span.date {
+    padding-left: 10px;
+}
+
+/*대댓글 좋아요 조회수 답글쓰기 합친거*/
+.reply-list .reply .txt-area .util > button {
+    font-size: 13px;
+    color: #a5a5a5;
+    position: relative;
+}
+
+
+.like-count-reply{
+    left: 40px;
+    top: 4px;
+    position: relative;
+    font-weight: bold;
+}
+
+.btn-rereply{
+    position: relative;
+    left: 30px;
+    top: 4px;
+}
+
+.btn-coment-reply{
+    position: relative;
+    float: right;
+    right: 30px;
+}
+
+.reply-inputbox{
+    position: relative;
+    
+}
+
+/*대댓글*/
+
+.reply-list .reply .txt-area2 {
+    position: relative;
+    padding-left: 150px;
+}
+
+.reply-list .reply .profile-img2 {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    width: 54px;
+    height: 54px;
+    background-image: url("./image/프로필.PNG");
+}
+
+.reply-list .reply .txt-area2 .util > button {
+    font-size: 13px;
+    color: #a5a5a5;
+    position: relative;
+}
+
+/*바닥*/
+
+.btn-foot{
+    border: 1px solid black;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin: 20px 0 10px 10px;
+    border-radius: 22px;
+    background-color: rgb(238, 236, 236);
+    
+}
+
+.btn-list{
+    border: 1px solid black;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    float: right;
+    margin: 20px;
+    border-radius: 22px;
+    background-color: rgb(238, 236, 236);
+    
+}
