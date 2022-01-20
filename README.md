@@ -1,6 +1,7 @@
+# 구디 커뮤니티 서비스
+
 ## 개발 일정
 ![image](https://user-images.githubusercontent.com/68984380/150292877-38f682fa-06c2-4bc7-9838-df123183491d.png)
-
 
 ## DB
 ![image](https://user-images.githubusercontent.com/68984380/150293016-6020fef2-4d8b-4cbb-95d7-08cfc78b6760.png)
