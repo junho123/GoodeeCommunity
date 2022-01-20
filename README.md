@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/68984380/150293111-41605605-5a4d-4b73-b3bd-9d3871ec846d.png)
 
 ## 기능
-### 회원가입, 로그인, 이메일 
+### 회원가입, 로그인, 이메일 인증
 ![image](https://user-images.githubusercontent.com/68984380/150293146-f589ccef-5f27-4d12-86de-8faec81b7065.png)
 
 ### 글 작성, 수정, 삭제
